@@ -1,0 +1,229 @@
+.price{
+    background-color: lightgray;
+}
+
+
+
+.banner{
+    background-image: url(./image/gym1.jpg);
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0%;
+}
+.banner h2{
+    color: white;
+  padding-top: 20%;
+    margin-top: 0%;
+}
+.imgxo{
+    opacity: 0.2;
+    height: 250px;
+    width: 15%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.b2{
+    height: 380px;
+    width: 100%;
+    position: relative;
+}
+.content1{
+    width: 40%;
+    height: 200px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+}
+.chart{
+    background-image: url(./image/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+   
+}
+.price11 {
+    width: 250px;
+    height:400px;
+    background-color: #f0f0f0;
+    position:absolute ;
+    bottom:0%;
+    left: 8.5%;
+    
+    animation: moveUp 1s ease-in-out forwards;
+  }
+  .price1{
+    position: relative;
+    bottom: 10px;
+    height: 360px;
+   
+    background-color: #f3f8f9;
+
+  }
+  @keyframes moveUp {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  .price11:hover{
+        bottom: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .b3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+        height: auto;
+  }
+ .img1{
+    position: relative;
+    opacity: 0.7;
+ } 
+    .img1:hover{
+      opacity: 1;
+    }
+    .img2{
+      opacity: 0.7;
+   } 
+      .img2:hover{
+        opacity: 1;
+      }
+      .img3{
+        opacity: 0.7;
+     } 
+        .img3:hover{
+          opacity: 1;
+        }
+ .price11 sub{
+    color: rgb(160, 155, 155);
+    font-weight: 1000;
+    font-size: 20px;
+ }
+ .price11 sup{
+    color: rgb(160, 155, 155);
+    font-weight: 1000;
+    font-size: 20px;
+ }
+ .price11 span{
+    font-size: 50px;
+    font-weight: 1000;
+ }
+ .but {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+    position: absolute;
+    left: 20%;
+    bottom: 17px;
+  }
+  
+  .but:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px 0 rgba(243, 81, 23, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+  }
+  .space{
+    border: 1px solid orange;
+    height: 35px;
+    width: 60%;
+    margin-left: 30%;
+  }
+  .back1{
+    opacity: 0.2;
+    height: 250px;
+    width: 15%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+@media (max-width:770px){
+    .banner{
+        background-image: url(./image/gym1mobi.jpg);
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        margin: 0%;
+    }
+    .banner h2{
+        color: white;
+      padding-top: 40%;
+        margin-top: 0%;
+    }
+}
+
+@media (max-width :430px) {
+    .banner{
+        background-image: url(./image/gym1mobi.jpg);
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        margin: 0%;
+    }
+    .banner h2{
+        color: white;
+      padding-top: 70%;
+        margin-top: 0%;
+    }
+    .b2{
+        
+        height:550px;
+        width: 100%;
+}
+.chart{
+    width: 80%;
+    height: 80px;
+    background-size: contain;
+    margin-left: 10%;
+    font-size: 15px;
+    padding-top: 0%;
+   
+}
+}
+@media (max-width :330px) {
+    .banner h2{
+        color: white;
+      padding-top: 90%;
+        margin-top: 0%;
+    }
+   
+    .b2{
+        
+        height:600px;
+        width: 100%;
+}
+    .chart h4{
+        margin-top: 0%;
+        margin-bottom: 0px;
+    }
+    .chart h2{
+        margin-top: 0px;
+    }
+}
+.logo2{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 15px;
+}
